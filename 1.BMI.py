@@ -6,7 +6,6 @@ if BMI < 18.5:
     print("too thin")
 elif BMI < 24:
     print("normal")
-<<<<<<< HEAD
 elif BMI < 28:
     print("overweighht")
 else:
