@@ -24,3 +24,6 @@ while F != 1:
         print("{}*3+1={}".format(F,3*F+1))
         F=3*F+1
 #### TypeError: not all arguments converted during string formatting
+year = int(input('请输入年份：'))
+is_leap = (year%4 == 0 and year% 100!= 0 or200 year % 400==0)
+print(is_leap)
