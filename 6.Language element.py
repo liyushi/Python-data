@@ -40,3 +40,5 @@ if a+b > c and a + c > b and b + c > a:
     print('面积:%f'%(area))
 else:
     print('不能构成三角形')
+
+    123
