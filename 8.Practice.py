@@ -8,7 +8,7 @@ for num in range(100,1000):
 '''
 水仙花数
 '''
-
+'''
 num = int(input('num = '))
 reversed_num = 0
 while num > 0:
@@ -22,8 +22,10 @@ for x in range(0,20):
         z = 100-x-y
         if 5*x+3*y+z/3==100:
             print('公鸡:%d,母鸡:%d,小鸡:%d'%(x,y,z))
+'''
 
 
+'''
 from random import randint
 
 money = 1000
@@ -57,3 +59,34 @@ while money > 0:
         else:
             needs_go_on = True
 print('你破产了, 游戏结束!')
+'''
+
+
+
+FirstNum = 1
+SecondNum = 1
+x = int(input('请输入要输出的斐波那契数量'))
+for i in range(x):
+    FirstNum, SecondNum = SecondNum, FirstNum + SecondNum
+    print(FirstNum,SecondNum)
+
+# Function for nth Fibonacci number
+
+def Fibonacci(n):
+	if n<0:
+		print("Incorrect input")
+	# First Fibonacci number is 0
+	elif n==1:
+		return 0
+	# Second Fibonacci number is 1
+	elif n==2:
+		return 1
+	else:
+		return Fibonacci(n-1)+Fibonacci(n-2)
+
+# Driver Program
+
+print(Fibonacci(9))
+
+#This code is contributed by Saket Modi
+
