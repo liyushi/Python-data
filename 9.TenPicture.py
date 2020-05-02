@@ -14,3 +14,6 @@ plt.show()
 df = pd.DataFrame({'x': x, 'y': y})
 sns.jointplot(x="x", y="y", data=df, kind='scatter');
 plt.show()
+'''
+好难啊 这道题我不会
+'''
