@@ -17,3 +17,5 @@ plt.show()
 '''
 好难啊 这道题我不会
 '''
+def foo():
+    print('hello,world!')

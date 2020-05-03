@@ -40,15 +40,15 @@ def add(*args):
     for val in args:
         total += val
     return total
-print(add())
-print(add(1))
-print(add(1,2))
-print(add(1,2,3))
-print(add(1,3,5,7,9))
-print(add(c=50,a=100,b=200))
+
 '''
 1.设置默认值，如果调用函数的时候没有传入对应参数的值，将使用该参数的默认值
 2.与其他语言的函数重载的效果是一致的
 '''
 
 
+def foo():
+    print('goobye, world!')
+foo()
+
+from 1.BMI import foo
